@@ -45,7 +45,9 @@ Initial overview of data highlitedt the fact that there was some data cleaning t
 ***
 ## **Overall**
 ***
-100 countries
+100 countries, avearge 12.869486759784664 for every 100K, 1995?
+
+![](images/suicide_per_100K.png)
 <br />
 <br />
 

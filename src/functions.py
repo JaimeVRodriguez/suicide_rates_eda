@@ -11,19 +11,21 @@ def read_file(csv_file):
     return df
 
 # Rename columns
+
+
 def rename(df):
     dict = {
         'country': 'Country',
         'year': 'Year',
         'sex': 'Sex',
-        'age': 'Age', 
-        'suicides_no': 'Suicides',	
+        'age': 'Age',
+        'suicides_no': 'Suicides',
         'population': 'Population',
         'suicides/100k pop': 'Suicides_per_100K',
         ' gdp_for_year ($) ': 'Annual_GDP',
         'gdp_per_capita ($)': 'GDP_per_Capita',
         'generation': 'Generation'
-        }
+    }
 
     df.rename(columns=dict,
               inplace=True)
