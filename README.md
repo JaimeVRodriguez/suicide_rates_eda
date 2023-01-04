@@ -58,6 +58,7 @@ Of key note is the high point in 1995, which begs the questions what occured or 
 Oklahoma City Bombing, US pulls out of Somalia, UN intervenes in Bosnian Civial War, Japan Earthquake, UK Barings Bank Collapse, Russian Earthquake, OJ Found Innocent
 
 ![](images/suicide_per_100K.png)
+![](images/world_map.png)
 <br />
 <br />
 <br />
