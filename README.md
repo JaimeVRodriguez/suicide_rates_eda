@@ -6,7 +6,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Process](#data-processing)
+- [Data Processing](#data-processing)
 - [Overall](#overall)
     - [Top 5 Countries](#top-5-countries)
     - [Transit Lines Opened per Year](#transit-lines-opened-per-year)
@@ -17,6 +17,7 @@
     - [New York Data](#new-york-data)
 <br />
 <br />
+<br />
 
 ***
 ## **Introduction**
@@ -24,11 +25,22 @@
 This dataset, which can be found [here](https://www.kaggle.com/datasets/russellyates88/suicide-rates-overview-1985-to-2016), provides global suicide rates from 1985 to 2016. This compiled dataset pulled from four other datasets linked by time and place, and was built to find signals correlated to increased suicide rates among different cohorts globally, across the socio-economic spectrum.
 <br />
 <br />
+<br />
 
 ***
 ## **Data Processing**
 ***
-Remove unneeded columns, remove 2016 - not enough data (160 records 27660), remove countries/records with less than 3 years of data (7 records 'Bosnia and Herzegovina', 'Cabo Verde', 'Dominica', 'Macau', 'Oman', 'Saint Kitts and Nevis', 'San Marino')
+Initial overview of data highlitedt the fact that there was some data cleaning that needed to occur. <br />
+<span style='color:orange'> **Data Cleaning Included:** </span> <br />
+
+- Two columns were removed
+    - Country Year - This appeared to be a generic code value. It was a combination of the country and year in string value. For the purposes of this analysis, it was determined it was needed.
+    - HDI for year - Numerical value of for human development index. This column held a significant number of NAN values and therefore did not bring any significant value to the dataset.
+- Remove 2016 data
+    - Allow the data contained data from 2016 it appeared that this data may have been gathered at some point in 2016 as there was only 160 (of 27820) data points for this particular year
+- Remove Countries with less than 3 years of data
+    - In order to properly assess the suicide data for a particular country it was determined that there should be at least 4 years of data in order to be considered significant.
+    - The following countries were removeds: 7 Countries - Bosnia and Herzegovina, Cabo Verde, Dominica, Macau, Oman, Saint Kitts and Nevis, San Marino.
 
 ***
 ## **Overall**
