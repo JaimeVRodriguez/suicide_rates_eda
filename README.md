@@ -44,6 +44,12 @@ Initial overview of data highlitedt the fact that there was some data cleaning t
 ***
 ## **Overall**
 ***
+<span style='color:green'> **Key Highlights** </span> <br />
+- Data spaned across **100** different countries
+- Peak rake was in **1995** with **15.66** per 100K
+- Average rate from 1995 to 2015 was **12.87** deaths per 100K
+- Steady decrease from 1995 to 2015 <br />
+
 The dataset consited of over 27000 records, Which included 100 different countries. An inital cursory look at the data can be seen below. It appeared that global suicide rates continued to increase until its peak in 1995 with an average of 15.66 suicides per 100,000 people. After which there was a steady decline. Additionaly, the average rate per 100K people was 12.87 suicides.
 
 Of key note is the high point in 1995, which begs the questions what occured or led to this point. A quick look into history revealed there were several world events that could have led to things like survivors remorse or affected by the losses or events themselves. <br />
@@ -51,6 +57,7 @@ Of key note is the high point in 1995, which begs the questions what occured or 
 Oklahoma City Bombing, US pulls out of Somalia, UN intervenes in Bosnian Civial War, Japan Earthquake, UK Barings Bank Collapse, Russian Earthquake, OJ Found Innocent
 
 ![](images/suicide_per_100K.png)
+<br />
 <br />
 <br />
 
