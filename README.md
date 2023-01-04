@@ -10,7 +10,7 @@
 - [Overall](#overall)
     - [Male vs Female](#male-vs-female)
     - [Generations](#generation-breakdown)
-    - [Average Track Length Comparison by Country](#average-track-length-comparison-by-country)
+    - [Highest Five Countries](#high-five)
 - [United States](#united-states)
     - [US Transit Line Counts](#us-transit-line-counts)
     - [US Heatmap](#us-heatmap)
@@ -64,18 +64,25 @@ Oklahoma City Bombing, US pulls out of Somalia, UN intervenes in Bosnian Civial 
 <br />
 
 ### Male vs Female
-Male and female <br />
-24.90    6.42
+<span style='color:green'> **Key Highlights** </span> <br />
+- Max male rate of **24.90** per 100K
+- Max female rate of **6.42** per 100K
+- Male suicide rate is **3.8** times higher than that of females
+
 ![](images/male_female.png)
 <br />
-
+<br />
+<span style='color:green'> **Key Highlights** </span> <br />
+- Generation agnostic
 ### Generation Breakdown
+
 ![](images/generations.png)
 <br />
 
-### Average Track Length Comparison by Country
-This bar plot shows variation between the average length of transit lines in each country.
-![](images/track_length_number_correlation.png)
+### High Five
+
+![](images/high_five_total.png)
+![](images/high_five_per_100K.png)
 
 ***
 ## United States
