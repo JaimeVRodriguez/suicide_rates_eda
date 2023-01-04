@@ -56,6 +56,7 @@ Oklahoma City Bombing, US pulls out of Somalia, UN intervenes in Bosnian Civial 
 
 ### Male vs Female
 Male and female <br />
+24.90    6.42
 ![](images/male_female.png)
 <br />
 
