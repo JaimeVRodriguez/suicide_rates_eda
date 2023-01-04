@@ -8,7 +8,7 @@
 - [Introduction](#introduction)
 - [Data Processing](#data-processing)
 - [Overall](#overall)
-    - [Top 5 Countries](#top-5-countries)
+    - [Male vs Female](#male-vs-female)
     - [Transit Lines Opened per Year](#transit-lines-opened-per-year)
     - [Average Track Length Comparison by Country](#average-track-length-comparison-by-country)
 - [United States](#united-states)
@@ -31,7 +31,6 @@ This dataset, which can be found [here](https://www.kaggle.com/datasets/russelly
 ## **Data Processing**
 ***
 Initial overview of data highlitedt the fact that there was some data cleaning that needed to occur. <br />
-<span style='color:orange'> **Data Cleaning Included:** </span> <br />
 
 - Two columns were removed
     - Country Year - This appeared to be a generic code value. It was a combination of the country and year in string value. For the purposes of this analysis, it was determined it was needed.
@@ -45,15 +44,19 @@ Initial overview of data highlitedt the fact that there was some data cleaning t
 ***
 ## **Overall**
 ***
-100 countries, avearge 12.869486759784664 for every 100K, 1995?
+The dataset consited of over 27000 records, Which included 100 different countries. An inital cursory look at the data can be seen below. It appeared that global suicide rates continued to increase until its peak in 1995 with an average of 15.66 suicides per 100,000 people. After which there was a steady decline. Additionaly, the average rate per 100K people was 12.87 suicides.
+
+Of key note is the high point in 1995, which begs the questions what occured or led to this point. A quick look into history revealed there were several world events that could have led to things like survivors remorse or affected by the losses or events themselves. <br />
+<span style='color:orange'> **Global Events Included:** </span> <br />
+Oklahoma City Bombing, US pulls out of Somalia, UN intervenes in Bosnian Civial War, Japan Earthquake, UK Barings Bank Collapse, Russian Earthquake, OJ Found Innocent
 
 ![](images/suicide_per_100K.png)
 <br />
 <br />
 
-### Top 5 Countries
-The further comparison of the top five countries shows when each had station openings and how many in that particular year. It is interesting to note that the top country, United States, built a majority of its transportation lines between 1875 and and 1925. Which will be highlighted again in a [New York] analysis. 
-![](images/top_5.png)
+### Male vs Female
+Male and female <br />
+![](images/male_female.png)
 <br />
 
 ### Transit Lines Opened per Year
