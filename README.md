@@ -9,7 +9,7 @@
 - [Data Processing](#data-processing)
 - [Overall](#overall)
     - [Male vs Female](#male-vs-female)
-    - [Transit Lines Opened per Year](#transit-lines-opened-per-year)
+    - [Generations](#generation-breakdown)
     - [Average Track Length Comparison by Country](#average-track-length-comparison-by-country)
 - [United States](#united-states)
     - [US Transit Line Counts](#us-transit-line-counts)
@@ -53,6 +53,7 @@ Initial overview of data highlitedt the fact that there was some data cleaning t
 The dataset consited of over 27000 records, Which included 100 different countries. An inital cursory look at the data can be seen below. It appeared that global suicide rates continued to increase until its peak in 1995 with an average of 15.66 suicides per 100,000 people. After which there was a steady decline. Additionaly, the average rate per 100K people was 12.87 suicides.
 
 Of key note is the high point in 1995, which begs the questions what occured or led to this point. A quick look into history revealed there were several world events that could have led to things like survivors remorse or affected by the losses or events themselves. <br />
+
 <span style='color:orange'> **Global Events Included:** </span> <br />
 Oklahoma City Bombing, US pulls out of Somalia, UN intervenes in Bosnian Civial War, Japan Earthquake, UK Barings Bank Collapse, Russian Earthquake, OJ Found Innocent
 
@@ -67,8 +68,8 @@ Male and female <br />
 ![](images/male_female.png)
 <br />
 
-### Transit Lines Opened per Year
-![](images/Transit_lines_opened_per_year.png)
+### Generation Breakdown
+![](images/generations.png)
 <br />
 
 ### Average Track Length Comparison by Country
