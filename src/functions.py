@@ -20,7 +20,7 @@ def rename(df):
         'suicides_no': 'Suicides',	
         'population': 'Population',
         'suicides/100k pop': 'Suicides_per_100K',
-        'gdp_for_year ($)': 'Annual',
+        ' gdp_for_year ($) ': 'Annual_GDP',
         'gdp_per_capita ($)': 'GDP_per_Capita',
         'generation': 'Generation'
         }
