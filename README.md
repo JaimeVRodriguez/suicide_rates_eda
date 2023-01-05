@@ -45,7 +45,7 @@ Initial overview of data highlitedt the fact that there was some data cleaning t
 ## **Overall**
 ***
 <span style='color:green'> **Key Highlights** </span> <br />
-- Data spaned across **100** different countries
+- Data spaned across **93** different countries
 - Peak rake was in **1995** with **15.66** per 100K
 - Average rate from 1995 to 2015 was **12.87** deaths per 100K
 - Steady decrease from 1995 to 2015 <br />
