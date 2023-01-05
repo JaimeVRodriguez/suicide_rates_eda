@@ -7,9 +7,9 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Data Processing](#data-processing)
-- [Overall](#overall)
+- [Overview](#overview)
     - [Male vs Female](#male-vs-female)
-    - [Generations](#generation-breakdown)
+    - [Generations & Ages](#generations-and-ages)
     - [Highest Five Countries](#high-five)
 <br />
 <br />
@@ -37,13 +37,15 @@ Initial overview of data highlitedt the fact that there was some data cleaning t
     - In order to properly assess the suicide data for a particular country it was determined that there should be at least 4 years of data in order to be considered significant.
     - The following countries were removeds: 7 Countries - Bosnia and Herzegovina, Cabo Verde, Dominica, Macau, Oman, Saint Kitts and Nevis, San Marino.
 
+![](images/cleaning.png)
+
 ***
-## **Overall**
+## **Overview**
 ***
 <span style='color:green'> **Key Highlights** </span> <br />
-- Data spaned across **93** different countries
-- Peak rake was in **1995** with **15.66** per 100K
-- Average rate from 1995 to 2015 was **12.87** deaths per 100K
+- Data spanned across **93** different countries
+- Peak rate was in **1995** with **15.66** per 100K
+- Average rate from 1985 to 2015 was **12.87** deaths per 100K
 - Steady decrease from 1995 to 2015 <br />
 
 The dataset consited of over 27000 records, Which included 100 different countries. An inital cursory look at the data can be seen below. It appeared that global suicide rates continued to increase until its peak in 1995 with an average of 15.66 suicides per 100,000 people. After which there was a steady decline. Additionaly, the average rate per 100K people was 12.87 suicides.
@@ -69,7 +71,7 @@ Oklahoma City Bombing, US pulls out of Somalia, UN intervenes in Bosnian Civial 
 <br />
 <br />
 
-### Generation & Age Breakdown
+### Generations and Ages
 <span style='color:green'> **Key Highlights** </span> <br />
 - Generation agnostic
 - **35-54** age group has the most amount of suicides
