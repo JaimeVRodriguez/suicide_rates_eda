@@ -109,6 +109,9 @@ def bar_plot(df, column_one, column_two, title, xlabel, ylabel, color):
     ax.set_xlabel(xlabel, fontsize=12, fontweight='medium')
     ax.set_ylabel(ylabel, fontsize=12, fontweight='medium')
 
+'''
+Horizontal bar plot from dataframe
+'''
 def hbar_plot(df, column_one, column_two, title, xlabel, ylabel, color):
     fig, ax = plt.subplots(figsize=(8,6))
 
@@ -118,6 +121,10 @@ def hbar_plot(df, column_one, column_two, title, xlabel, ylabel, color):
     ax.set_title(title, loc='left', fontsize=18, fontweight='bold')
     ax.set_xlabel(xlabel, fontsize=12, fontweight='medium')
     ax.set_ylabel(ylabel, fontsize=12, fontweight='medium')
+
+'''
+Horizontal bar plot from series
+'''
 
 def ser_hbar_plot(df, title, xlabel, ylabel, color):
     fig, ax = plt.subplots(figsize=(8,6))

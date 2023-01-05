@@ -11,10 +11,6 @@
     - [Male vs Female](#male-vs-female)
     - [Generations](#generation-breakdown)
     - [Highest Five Countries](#high-five)
-- [United States](#united-states)
-    - [US Transit Line Counts](#us-transit-line-counts)
-    - [US Heatmap](#us-heatmap)
-    - [New York Data](#new-york-data)
 <br />
 <br />
 <br />
@@ -76,6 +72,8 @@ Oklahoma City Bombing, US pulls out of Somalia, UN intervenes in Bosnian Civial 
 ### Generation & Age Breakdown
 <span style='color:green'> **Key Highlights** </span> <br />
 - Generation agnostic
+- **35-54** age group has the most amount of suicides
+    - **1.48** times higher than the next highest age group
 
 
 ![](images/generations.png)
@@ -88,33 +86,14 @@ Oklahoma City Bombing, US pulls out of Somalia, UN intervenes in Bosnian Civial 
 <br />
 
 ### High Five
+<span style='color:green'> **Key Highlights** </span> <br />
+- Country count can be minscontrued due to large populations
+    - Per 100K data is a better representation
+    - **Ukraine** appears to be an outlier due to it's size (**16** smaller than the United States) <br />
+    **8931.66** suicides per 100K, compared to the United States at **5140.97**
+- **Eastern European** (Former Soviet Block Countries) appear to have a higher propensity for suicide
 
 ![](images/high_five_total.png)
 ![](images/high_five_per_100K.png)
 
-***
-## United States
-***
 
-### US Transit Line Counts
-After indentifying the United States held the most cities, further analysis was conducted on those cities within the United States. What can be immeditaely identified is that the cities withing the United States are large metropolitan cities. With [New York](#new-york-data) having the most stations.
-
-It is important to note that there are other cities within the United States that host transportation stations, however the [station](data/stations.csv) data does not hold information for those cities not listed. This is important to note this is one limitation of this data set.
-
-![](images/us_transit_lines.png)
-<br />
-<br />
-
-### US Heatmap
-Additinally cities within the United States that host a transportation station are represented below with the a provides a visual representation of the density of the stations within those cities.
-
-![](images/us_heatmap.png) 
-
-Click this [interactive map](http://127.0.0.1:5500/images/us_heatmap.html) to view and zoom to certain areas.
-<br />
-<br />
-
-### New York Data
-As previously identified, New York held the most stations in the United States. Additionaly, it was noted that the United States opened the majority of tracks were opened between the 1875 and 1925. This further highlights the stark buildup during that time period and followed by a tappering of openings.
-
-![](images/new_york_track_length.png)
