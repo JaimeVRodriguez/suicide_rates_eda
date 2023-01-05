@@ -99,15 +99,15 @@ def two_plot(df1, ax1_title, df2, ax2_title, title, xlabel, ylabel, color):
 '''
 Bar plot comparing two categories(columns)
 '''
-def bar_plot(df, column_one, column_two, color):
+def bar_plot(df, column_one, column_two, title, xlabel, ylabel, color):
     fig, ax = plt.subplots(figsize=(8,6))
     ax.ticklabel_format(useOffset=False, style='plain', axis='y')
 
     ax.bar(df[column_one], df[column_two], color=color)
 
-    ax.set_title('Total Suicided by Age', loc='left', fontsize=18, fontweight='bold')
-    ax.set_xlabel('Age Group', fontsize=12, fontweight='medium')
-    ax.set_ylabel('Suicides', fontsize=12, fontweight='medium')
+    ax.set_title(title, loc='left', fontsize=18, fontweight='bold')
+    ax.set_xlabel(xlabel, fontsize=12, fontweight='medium')
+    ax.set_ylabel(ylabel, fontsize=12, fontweight='medium')
 
 
 
