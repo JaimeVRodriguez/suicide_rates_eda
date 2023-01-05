@@ -109,7 +109,23 @@ def bar_plot(df, column_one, column_two, title, xlabel, ylabel, color):
     ax.set_xlabel(xlabel, fontsize=12, fontweight='medium')
     ax.set_ylabel(ylabel, fontsize=12, fontweight='medium')
 
+def hbar_plot(df, column_one, column_two, title, xlabel, ylabel, color):
+    fig, ax = plt.subplots(figsize=(8,6))
 
+    ax.barh(df[column_one], df[column_two], color=color)
+    ax.ticklabel_format(useOffset=False, style='plain', axis='x')
+
+    ax.set_title(title, loc='left', fontsize=18, fontweight='bold')
+    ax.set_xlabel(xlabel, fontsize=12, fontweight='medium')
+    ax.set_ylabel(ylabel, fontsize=12, fontweight='medium')
+
+def ser_hbar_plot(df, title, xlabel, ylabel, color):
+    fig, ax = plt.subplots(figsize=(8,6))
+
+    ax.barh(df.index, df.values, color=color)
+    ax.set_title(title, loc='left', fontsize=18, fontweight='bold')
+    ax.set_xlabel(xlabel, fontsize=12, fontweight='medium')
+    ax.set_ylabel(ylabel, fontsize=12, fontweight='medium')
 
 if __name__ == '__main__':
     plt.style.use('ggplot')
