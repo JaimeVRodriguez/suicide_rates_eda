@@ -3,13 +3,16 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+'''
+Following functions cleans the data into its final form.
+Final version will be output in the clean_data function
+'''
 
 # Takes in csv file and outputs a dataframe for use throughout project.
 def read_file(csv_file):
 
     df = pd.read_csv(csv_file)
     return df
-
 
 # Remove data from 2016 (not enough data)
 def remove_year(df, year):
@@ -18,24 +21,18 @@ def remove_year(df, year):
     return df
 
 # Replace elements inside column in order to utilize better
-
-
 def replace_column_items(df, column_item, replacement):
     df = df.replace({column_item: replacement})
 
     return df
 
 # Countries that had less than 3 years of data
-
-
 def less_than_three_years(df):
     grouped = df.groupby('country').count()
     country_list = grouped[grouped.year <= 36]
     return country_list.index
 
 # # Remove countries that had less than 3 years of data
-
-
 def remove_countries(df):
     country_filter = less_than_three_years(df)
 
@@ -43,16 +40,12 @@ def remove_countries(df):
     return df
 
 # Drop unneeded columns
-
-
 def remove_columns(df, column_list):
     df = df.drop(columns=column_list)
 
     return df
 
 # Rename columns for human readability
-
-
 def rename(df):
     dict = {
         'country': 'Country',
