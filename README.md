@@ -72,11 +72,19 @@ Oklahoma City Bombing, US pulls out of Somalia, UN intervenes in Bosnian Civial 
 ![](images/male_female.png)
 <br />
 <br />
+
+### Generation & Age Breakdown
 <span style='color:green'> **Key Highlights** </span> <br />
 - Generation agnostic
-### Generation Breakdown
+
 
 ![](images/generations.png)
+<br />
+<br />
+![](images/age_total.png)
+![](images/age_rate.png)
+
+<br />
 <br />
 
 ### High Five
