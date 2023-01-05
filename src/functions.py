@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import plotly.express as px
 
 '''
 Following functions cleans the data into its final form.
@@ -78,6 +79,38 @@ def clean_data(df, year, column_item, replacement, column_list):
     df = rename(df)
 
     return df
+
+'''
+Following functions plot the overall rate data
+'''
+
+# Retrieve mean rate for every year
+def annual_rate(df):
+    ser = df['Suicides_per_100K'].groupby(df.Year).mean()
+    return ser
+
+# Retieve overall average for all years
+def annual_average(df):
+    num = df['Suicides_per_100K'].sum() / df['Suicides_per_100K'].count()
+    return num
+
+
+def annual_rate_plot(df, title, xlabel, ylabel):
+    ser = annual_rate(df)
+    avg = annual_average(df)
+
+    fig, ax = plt.subplots(figsize=(8,6))
+
+    ax.plot(ser.index, ser.values, marker='o')
+
+    ax.set_title(title, loc='left', fontsize=18, fontweight='bold')
+    ax.set_xlabel(xlabel, fontsize=12, fontweight='medium')
+    ax.set_ylabel(ylabel, fontsize=12, fontweight='medium')
+
+    ax.axhline(avg, linestyle='--', color='blue')
+
+    return ax
+
 
 
 if __name__ == '__main__':
