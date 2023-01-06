@@ -11,6 +11,7 @@
     - [Male vs Female](#male-vs-female)
     - [Generations & Ages](#generations-and-ages)
     - [Highest Five Countries](#high-five)
+- [Correlation](#correlation)
 <br />
 <br />
 <br />
@@ -70,6 +71,7 @@ Oklahoma City Bombing, US pulls out of Somalia, UN intervenes in Bosnian Civial 
 ![](images/male_female.png)
 <br />
 <br />
+<br />
 
 ### Generations and Ages
 <span style='color:green'> **Key Highlights** </span> <br />
@@ -77,13 +79,14 @@ Oklahoma City Bombing, US pulls out of Somalia, UN intervenes in Bosnian Civial 
 - **35-54** age group has the most amount of suicides
     - **1.48** times higher than the next highest age group
 
-
 ![](images/generations.png)
 <br />
 <br />
+
 ![](images/age_total.png)
 ![](images/age_rate.png)
 
+<br />
 <br />
 <br />
 
@@ -97,5 +100,15 @@ Oklahoma City Bombing, US pulls out of Somalia, UN intervenes in Bosnian Civial 
 
 ![](images/high_five_total.png)
 ![](images/high_five_per_100K.png)
+<br />
+<br />
+<br />
+
+## Correlation
+<span style='color:green'> **Key Highlights** </span> <br />
+- Correlation between number of **Suicides** and **Population** is relatively high at **0.62**
+- No correlation between **GDP per Capita** and **Suicides**, **0.063**
+![](images/correlation.png)
+
 
 
