@@ -4,16 +4,18 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 
-'''
-Following functions cleans the data into its final form.
-Final version will be output in the clean_data function
-'''
+
 
 # Takes in csv file and outputs a dataframe for use throughout project.
 def read_file(csv_file):
 
     df = pd.read_csv(csv_file)
     return df
+
+'''
+Following functions cleans the data into its final form.
+Final version will be output in the clean_data function
+'''
 
 # Remove data from 2016 (not enough data)
 def remove_year(df, year):
