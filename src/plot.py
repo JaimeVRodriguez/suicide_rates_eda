@@ -125,7 +125,6 @@ def hbar_plot(df, column_one, column_two, title, xlabel, ylabel, color):
 '''
 Horizontal bar plot from series
 '''
-
 def ser_hbar_plot(df, title, xlabel, ylabel, color):
     fig, ax = plt.subplots(figsize=(8,6))
 
@@ -133,6 +132,15 @@ def ser_hbar_plot(df, title, xlabel, ylabel, color):
     ax.set_title(title, loc='left', fontsize=18, fontweight='bold')
     ax.set_xlabel(xlabel, fontsize=12, fontweight='medium')
     ax.set_ylabel(ylabel, fontsize=12, fontweight='medium')
+
+'''
+Correlation Plot
+'''
+def correlation_plot(df):
+    sns.heatmap(df.corr(), annot=True, 
+            cmap=sns.color_palette("coolwarm", as_cmap=True),
+            vmin = -0.5,
+            vmax = 1)
 
 if __name__ == '__main__':
     plt.style.use('ggplot')
